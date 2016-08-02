@@ -155,6 +155,10 @@ body {
   color: white;
 }
 
+.modal  {
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
+
 header {
   border-top: 9px solid #222222;
 }
@@ -169,6 +173,21 @@ h1  {
 
 h2  {
   font-family: 'Play', sans-serif;
+}
+
+h2 span {
+  color: #5D88D9;
+  font-family: 'Play', sans-serif;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+::selection {
+  background-color: #5383DB;
 }
 
 

@@ -1,6 +1,13 @@
 <div class="index">
+  <h2>
+    <span>July Splurty / No. <%= @quote.id %></span>
+    - Here are the <u>best quotes</u> about night-time!
+  </h2>
+
   <% if @quote.present? %>
     <h1><%= @quote.saying %></h1>
     <h2>- <%= @quote.author %></h2>
   <% end %>
+
+
 </div>
