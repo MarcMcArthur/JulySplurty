@@ -5,7 +5,11 @@
 .about  {
   /* Monospace stack */
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-  
+  color: white;
+}
+
+.about a  {
+  color: #45CAD9;
 }
 
 .clear  {
@@ -131,6 +135,7 @@ body {
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   font-style: italic;
   padding-top: 26px;
+  color: white;
 }
 
 .links  {
@@ -151,6 +156,14 @@ body {
 
 .about:hover  {
   text-decoration: none;
+}
+
+.new_form {
+  color: white;
+}
+
+.index  {
+  color: white;
 }
 
 header {
