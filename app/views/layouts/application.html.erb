@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Julysplurty</title>
+  <title>JulySplurty</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %> 
@@ -31,7 +31,7 @@
     </div>
     <div class="col-xs-5 links">
       <%= link_to 'Contribute', new_quote_path, class: 'contribute' %>
-      <%= link_to 'About', '#', class: 'about' %>
+      <%= link_to 'About', about_path, class: 'about' %>
     </div>
   </header>
   <hr />
